@@ -1,0 +1,70 @@
+__gmon_start__._ITM_deregister TMCloneTable._ITM_registerTMCloneTable.__cxa_finalize.stop.
+pWrk_int.
+pWrk_float.
+pWrk_double.
+pSync.
+main.
+	shmem_init.
+	shmem_n_pes.
+	shmem_my_pe.
+	fixed_test.
+	shmem_finalize.
+
+partitions_sweep.
+size_sweep.
+GetPartitionSize.
+GetLastPartitionSize.
+
+	int_scalar_mult_overlap.
+	int_scalar_mult.
+	float_scalar_mult_overlap.
+	float_scalar_mult.
+	double_scalar_mult_overlap.
+	double_scalar_mult.
+	printf.
+
+PrintPartitionInfo.
+
+	puts.
+	shmem_malloc.
+	rand.
+	shmem_barrier_all.
+	clock_gettime.
+	shmem_int_get.
+	shmem_int_g.
+	shmem_quiet.
+	shmem_int_get_nbi.
+	shmem_collect32.
+	shmem_free.
+	elapsed_time.
+
+__stack_chk_fail.
+
+	shmem_float_get.
+	shmem_float_g.
+	shmem_float_get_nbi.
+	shmem_fcollect32.
+	shmem_double_get.
+	shmem_double_g.
+	shmem_double_get_nbi.
+	shmem_collect64.
+
+elapsed_time_hr.
+sub_time_hr.
+loop_timer.
+loop_timer_nop.
+warmup_loop.
+
+interrupt_handler.
+discrete_elapsed_hr.
+
+liboshmem.so.0.
+libc.so.6.
+
+_end.
+
+GLIBC_2.4.
+GLIBC_2.17.
+GLIBC_2.2.5.
+
+/home/collin/ompi/install/lib

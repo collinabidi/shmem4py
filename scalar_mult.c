@@ -55,8 +55,8 @@ int main(int argc, char **argv) {
 	
 	// Run axpy test
 	//size_sweep(numPartitions, startSize, stopSize, iterations);
-	//fixed_test(stopSize, iterations, numPartitions);
-    partitions_sweep(stopSize, 1, 10, iterations);
+	fixed_test(stopSize, iterations, numPartitions);
+    	//partitions_sweep(stopSize, 1, 10, iterations);
 
     shmem_finalize();
 
