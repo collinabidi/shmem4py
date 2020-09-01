@@ -13,6 +13,4 @@ This is a Python wrapper for the C-based SHMEM library that is part of the OpenM
 It is authored by [Collin Abidi](https://github.com/collinabidi) as a part of the **High-Performance Computing** 
 group at [**NSF SHREC**](https://nsf-shrec.org/).
 
-[**OpenSHMEM**](http://www.openshmem.org/site/) allows for communication that is non-blocking on the host and target, 
-allowing for novel pipeline-partitioning data movement schemes.
-
+The basic test script, *shmemtest.py*, uses the **ctypes** library to access functions from a **.so** file.
